@@ -1,8 +1,47 @@
+/*Monokai pro colors because its my favorite <3*/
+/*#FF6188. Monokai Pro Pink.*/
+/*#FC9867. Monokai Pro Orange.*/
+/*#FFD866. Monokai Pro Yellow.*/
+/*#A9DC76. Monokai Pro Green.*/
+/*#78DCE8. Monokai Pro Blue.*/
+/*#AB9DF2. Monokai Pro Purple.*/
+/*#2D2A2E. Monokai Pro Back (background-light)*/
+/*#221f22. even darker monokai black?*/
+
 body {
-    background-color: #2d2a2e;
+    background-color: #2D2A2E;
+    /*monokai pro black*/
 }
 
+#greeting {
+    color: #FF6188
+}
 
+#home-button {
+    color: #FC9867;
+}
 
+#about-button {
+    color: #FFD866
+}
 
+#project-button {
+    color: #A9DC76
+}
 
+#contact-button {
+    color: #78DCE8
+}
+
+#navbar .nav-link:hover {
+    color: #AB9DF2;
+    transform: scale(1.05);
+
+}
+
+#lorem1 {
+    display: flex;
+    text-align: center;
+    color: #AB9DF2
+
+}
