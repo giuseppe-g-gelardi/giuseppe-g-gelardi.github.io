@@ -13,6 +13,10 @@ body {
     /*monokai pro black*/
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #greeting {
     color: #FF6188
 }
@@ -34,22 +38,47 @@ body {
 }
 
 #navbar .nav-link:hover {
-    color: #AB9DF2;
+    color: #2D2A2E;
     transform: scale(1.05);
 
 }
 
 .home-container {
     text-align: center;
+    padding: 100px;
 }
 
 #home-section {
-    color: #FF6188
+    color: #FC9867;
 }
 
 .section-content {
     color: #AB9DF2
 }
 
+.about-container {
+    text-align: center;
+    padding: 100px;
+}
 
+#about-section {
+    color: #FFD866;
+}
 
+.projects-container {
+    text-align: center;
+    padding: 100px;
+}
+
+#projects-section {
+    color: #A9DC76;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 100px;
+}
+
+#contact-section {
+    color: #78DCE8;
+}
