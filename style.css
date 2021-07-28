@@ -13,7 +13,7 @@ body {
     /*monokai pro black*/
 }
 
-html {
+html * {
     scroll-behavior: smooth;
 }
 
@@ -43,13 +43,28 @@ html {
 
 }
 
+#ttt {
+    color: #FF6188;
+    transform: scale(1.5);
+    padding: 2.5rem;
+}
+
 .home-container {
     text-align: center;
     padding: 100px;
 }
 
+#welcome-image {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1.25rem
+}
+
 #home-section {
     color: #FC9867;
+    padding: 1.125rem;
 }
 
 .section-content {
@@ -82,3 +97,5 @@ html {
 #contact-section {
     color: #78DCE8;
 }
+
+
