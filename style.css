@@ -43,7 +43,13 @@ html * {
 
 }
 
+#hello {
+    padding: 1.5rem;
+}
 
+#hello-section {
+    padding: 1.5rem;
+}
 
 .home-container {
     text-align: center;
@@ -55,7 +61,8 @@ html * {
     align-content: center;
     width: 100%;
     height: auto;
-    padding: 1.25rem
+    padding: 2.5rem;
+
 }
 
 #home-section {
@@ -76,6 +83,14 @@ html * {
     color: #FFD866;
 }
 
+#about-text {
+    color: #AB9DF2;
+}
+
+#about {
+    padding: 1.5rem;
+}
+
 .projects-container {
     text-align: center;
     padding: 100px;
@@ -83,6 +98,18 @@ html * {
 
 #projects-section {
     color: #A9DC76;
+}
+
+#midway-heading {
+    color: #FF6188;
+}
+
+#subtext-yellow {
+    color: #FFD866;
+}
+
+#subtext-blue {
+    color: #78DCE8;
 }
 
 .contact-container {
