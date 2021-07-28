@@ -43,11 +43,7 @@ html * {
 
 }
 
-#ttt {
-    color: #FF6188;
-    transform: scale(1.5);
-    padding: 2.5rem;
-}
+
 
 .home-container {
     text-align: center;
@@ -98,4 +94,13 @@ html * {
     color: #78DCE8;
 }
 
+.footer-container {
+    text-align: center;
+    padding: 1.5rem
+}
 
+#ttt {
+    color: #FF6188;
+    transform: scale(1.5);
+    padding: 2.5rem;
+}
