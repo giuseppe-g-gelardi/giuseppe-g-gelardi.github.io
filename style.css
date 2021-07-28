@@ -39,9 +39,17 @@ body {
 
 }
 
-#lorem1 {
-    display: flex;
+.home-container {
     text-align: center;
-    color: #AB9DF2
-
 }
+
+#home-section {
+    color: #FF6188
+}
+
+.section-content {
+    color: #AB9DF2
+}
+
+
+
