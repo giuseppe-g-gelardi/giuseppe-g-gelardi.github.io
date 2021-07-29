@@ -8,15 +8,23 @@
 /*#2D2A2E. Monokai Pro Back (background-light)*/
 /*#221f22. even darker monokai black?*/
 
+
+
+/*global?*/
 body {
     background-color: #2D2A2E;
-    /*monokai pro black*/
 }
 
-html * {
+html {
     scroll-behavior: smooth;
 }
+/*global?*/
 
+
+
+
+
+/*nav*/
 #greeting {
     color: #FF6188
 }
@@ -42,12 +50,16 @@ html * {
     transform: scale(1.05);
 
 }
+/*nav*/
+
+
+
 
 #hello {
     padding: 1.5rem;
 }
 
-#hello-section {
+#home-container {
     padding: 1.5rem;
 }
 
@@ -87,9 +99,30 @@ html * {
     color: #AB9DF2;
 }
 
+
+
+/*h2 colors*/
+#home {
+    color: #FC9867;
+}
+
+
 #about {
+    color: #FFD866;
     padding: 1.5rem;
 }
+
+#projects {
+    color: #A9DC76;
+}
+
+#contact {
+    color: #78DCE8;
+}
+/*h2 colors*/
+
+
+
 
 .projects-container {
     text-align: center;
@@ -110,6 +143,10 @@ html * {
 
 #subtext-blue {
     color: #78DCE8;
+}
+
+.subtext-purple {
+    color: #AB9DF2;
 }
 
 .contact-container {
